@@ -1,0 +1,15 @@
+﻿<Window x:Class="DanmuPlay.Video"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DanmuPlay"
+        mc:Ignorable="d"
+        Title="Video" Height="300" Width="300">
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Height="193" Margin="22,10,0,0" VerticalAlignment="Top" Width="260">
+            <Image x:Name="image" Height="152" Canvas.Left="32" Canvas.Top="27" Width="201"/>
+        </Canvas>
+
+    </Grid>
+</Window>
