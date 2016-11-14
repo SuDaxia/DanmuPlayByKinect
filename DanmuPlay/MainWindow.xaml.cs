@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 using System.Windows.Annotations;
 using System.Windows.Annotations.Storage;
-//undo File changes
+//undo File changes qunimeide a 
 namespace DanmuPlay
 {
     /// <summary>
@@ -23,6 +23,7 @@ namespace DanmuPlay
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int shabi;
         public MainWindow()
         {
             InitializeComponent();
