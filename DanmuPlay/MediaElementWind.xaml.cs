@@ -15,8 +15,7 @@ using System.Windows.Shapes;
 
 using System.Windows.Annotations;
 using System.Windows.Annotations.Storage;
-//undo File changes qunimeide a 
-//hello world的点点滴滴
+
 namespace DanmuPlay
 {
     /// <summary>
@@ -43,6 +42,27 @@ namespace DanmuPlay
             }
             mediaElement.Source = new Uri(openFileDialog.FileName,UriKind.Absolute);
             Console.WriteLine("Source==" + mediaElement.Source.ToString());
+            mediaElement.Play();
+        }
+
+        private void pause_Button_Click(object sender, RoutedEventArgs e)
+        {
+            mediaElement.Pause();
+        }
+
+        private void resume_Button_Click(object sender, RoutedEventArgs e)
+        {
+            mediaElement.Play();
+        }
+
+        private void stop_Button_Click(object sender, RoutedEventArgs e)
+        {
+            mediaElement.Stop();
+        }
+
+        private void replay_Button_Click(object sender, RoutedEventArgs e)
+        {
+            mediaElement.Stop();
             mediaElement.Play();
         }
     }
